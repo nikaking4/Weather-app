@@ -1,0 +1,31 @@
+export const dummyWeather = {
+  location: "Berlin, Germany",
+  current: {
+    temp: 20,
+    feelsLike: 18,
+    humidity: 46,
+    windSpeed: 14,
+    precipitation: 0,
+    weatherCode: 1,
+    isDay: true,
+  },
+  daily: [
+    { day: "Tue", code: 1, high: 20, low: 14 },
+    { day: "Wed", code: 2, high: 21, low: 15 },
+    { day: "Thu", code: 61, high: 18, low: 13 },
+    { day: "Fri", code: 3, high: 17, low: 12 },
+    { day: "Sat", code: 0, high: 22, low: 14 },
+    { day: "Sun", code: 95, high: 19, low: 13 },
+    { day: "Mon", code: 1, high: 20, low: 14 },
+  ],
+  hourly: [
+    { time: "15:00", code: 1, temp: 20 },
+    { time: "16:00", code: 1, temp: 19 },
+    { time: "17:00", code: 2, temp: 18 },
+    { time: "18:00", code: 2, temp: 17 },
+    { time: "19:00", code: 3, temp: 16 },
+    { time: "20:00", code: 3, temp: 15 },
+    { time: "21:00", code: 61, temp: 14 },
+    { time: "22:00", code: 61, temp: 14 },
+  ],
+};
